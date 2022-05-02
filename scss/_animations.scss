@@ -1,0 +1,18 @@
+@mixin hover-menu-animation {
+  color: $red;
+  text-decoration: underline;
+  text-decoration-color: $white;
+  background-color: $gray;
+}
+
+@mixin draw-star-animation {
+
+      @keyframes star-animation {
+        to {
+          opacity: 0.2;
+        }
+        from {
+          opacity: 1;
+        }
+      }
+}
